@@ -15,6 +15,6 @@ jobs:
           with:
             node-version: 18
         - run: |
-            cd .\react-frontend
+            cd react-frontend
             npm ci
         - run: npm test
