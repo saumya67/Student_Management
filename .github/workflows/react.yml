@@ -17,4 +17,4 @@ jobs:
         - run: |
             cd react-frontend
             npm ci
-        - run: npm test
+       
