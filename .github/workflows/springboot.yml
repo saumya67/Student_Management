@@ -21,3 +21,6 @@ jobs:
 
       - name: Build Spring Boot app
         run: ./mvnw package
+
+      - name: Build Package
+        run: ./springboot-backend/mvnw package
