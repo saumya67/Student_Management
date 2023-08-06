@@ -34,11 +34,6 @@ jobs:
         
       - name: Test & Code Coverage
         run: npm test -- --coverage
-        
-      - name: Upload Code Coverage
-        uses: codecov/codecov-action@v1
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
           
       - name: Build Package
         env:
